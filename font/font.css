@@ -1,0 +1,8 @@
+@font-face {
+    src: url(./Spinnaker-Regular.ttf);
+    font-family: 'Spinnaker-Regular';    
+    font-weight: normal;
+} 
+body{
+	font-family: 'Spinnaker Regular'; 
+}
