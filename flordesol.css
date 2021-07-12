@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    src: url(./font/Spinnaker-Regular.ttf);
+    font-family: 'Spinnaker-Regular';    
+    font-weight: normal;
+} 
+
+body{
+    background: rgb(207,206,206);
+    background: linear-gradient(0deg, rgba(207,206,206,1) 0%, rgba(213,213,213,1) 35%, rgba(254,254,254,1) 98%);
+}
+
+#paiCima{
+    position: relative;
+    
+}
+
+#titulo{
+    font-family: Spinnaker-Regular;
+    text-align: center;
+    font-size: 52px;
+    color: black;
+    background-color: #dce41a;
+    border-radius: 2px;
+}
+
+#redesSo{
+    text-align: center;
+    right: 50%;
+    margin: 10px;
+}
+
+.topicos{
+    font-family: Spinnaker-regular;
+    text-decoration: none;
+    font-size: 19px;
+    
+   
+}
+
+#feed{
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.foto{
+    padding: 5px;
+    border-radius: 20px;
+} .foto:hover{
+    -webkit-filter: grayscale(2);
+    transition: 0.3s;
+}
+
+#parteBaixo{
+    background-color: grey;
+    width: 100%;
+    height: 200px;
+}
